@@ -24,9 +24,14 @@ export function Header() {
       <div className="container-page">
         <div className="flex min-h-20 items-center justify-between gap-4">
           <Link href="/" className="flex min-w-0 items-center gap-3">
-            <span className="grid size-11 shrink-0 place-items-center rounded-md bg-navy-950 text-sm font-black tracking-wide text-gold-300">
-              KPS
-            </span>
+            <div className="flex h-16 w-16 shrink-0 items-center justify-center">
+              <img
+                src="/images/logo.png"
+                alt="Kingdom Path Society"
+                className="h-16 w-16 object-contain"
+              />
+            </div>
+
             <span className="min-w-0">
               <span className="block truncate text-sm font-black tracking-wide text-navy-950 sm:text-base">
                 {site.name}
