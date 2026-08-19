@@ -1,5 +1,6 @@
 import {
   BookOpen,
+  FileText,
   Gift,
   HandHeart,
   HeartHandshake,
@@ -63,6 +64,12 @@ const services = [
     description: "Supportive programs that help children, youth, and families feel safe and connected.",
     href: "/newcomer-support#family-support",
     icon: <Sprout className="size-6" />
+  },
+  {
+    title: "PDF Tools",
+    description: "Open our document center for PDF conversion, merge, split, signing, compression, and more.",
+    href: "/pdf-tools",
+    icon: <FileText className="size-6" />
   }
 ];
 
